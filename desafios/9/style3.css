@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h3{
+    color:white;
+    text-align: center;
+}
+p{
+    color:white;
+    text-align: center;
+}
+.cent{
+    width: 560px;
+    height: 315px;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    margin: auto;
+}
+.img{
+    display: block;
+    margin-left: 660px;
+    margin-right: auto;
+}

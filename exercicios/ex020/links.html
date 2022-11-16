@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color:blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color:darkblue;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color:red;
+        }
+
+        a:active{
+            color:yellow;
+        }
+
+        .especial{
+            background-color: rgb(196, 56, 56);
+        }
+
+        .especial::before{
+            content: '→';
+        }
+
+        .especial::after{
+            content: '←';
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/feed/subscriptions" target="_blank">youtube</a></li>
+        <li><a href="https://www.amazon.com.br/hz/wishlist/ls/3M6LISXJ8OK93" target="_blank" class="especial">amazon</a></li>
+        <li><a href="https://www.disneyplus.com/pt-br/home" target="_blank">disney+</a></li>
+    </ul>
+</body>
+</html>
